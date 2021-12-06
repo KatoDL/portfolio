@@ -9,7 +9,7 @@ const NavMenuStyles = styled.div`
   z-index: 100;
   top: 0;
   width: 100%;
-  padding: 1rem 0;
+  padding: 0.3rem 0;
   background: #C3B091;
   ul {
     list-style-type: none;
@@ -19,26 +19,26 @@ const NavMenuStyles = styled.div`
     text-align: center;
     li{
       display: inline-block;
-      border-radius: 8px;
+      // border-radius: 8px;
       transition: .3s ease background-color;
       &:hover{
-        background-color: #8E806A;
+        // background-color: #8E806A;
       }
     }
   }
   a {
     text-decoration: none;
-    color: #8E806A;
+    color: #D0CAB2;
     display: inline-block;
     padding: 1rem 2rem;
     font-size: 2rem;
     outline: none;
     &:hover{
-      color: #C3B091;
+      color: #89B5AF;
     }
   }
   .active {
-    color: #FFE6BC;
+    color: #89B5AF;
   }
   .mobile-menu-icon{
     position: absolute;
